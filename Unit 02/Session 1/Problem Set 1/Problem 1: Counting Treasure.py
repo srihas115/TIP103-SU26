@@ -1,6 +1,9 @@
 def total_treasures(treasure_map):
-    pass
-
+    total = 0
+    for value in treasure_map.values():
+        total += value
+    return total
+    
 treasure_map1 = {
     "Cove": 3,
     "Beach": 7,
