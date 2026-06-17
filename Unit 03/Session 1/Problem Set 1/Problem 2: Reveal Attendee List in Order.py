@@ -1,5 +1,3 @@
-
-from
 def reveal_attendee_list_in_order(attendees):
     # possibly use a deque 
     # SORT ATTENDEES FIRST INCREASINGLY
