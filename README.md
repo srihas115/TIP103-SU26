@@ -21,8 +21,8 @@ Each unit is divided into **2 sessions**:
 
 | Session | Day |
 |---|---|
-| Session 1 | Tuesday |
-| Session 2 | Thursday |
+| Session 1 | Tuesday (6-8 PM CT) |
+| Session 2 | Thursday (6-8 PM CT) |
 
 Each session contains **2 problem sets** (6–8 problems each), and may also include an additional folder for in-class exercises, notes, or practice problems worked through live during the session.
 
