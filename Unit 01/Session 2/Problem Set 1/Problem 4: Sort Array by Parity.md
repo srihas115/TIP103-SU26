@@ -1,6 +1,6 @@
 # Problem 4: Sort Array by Parity
 
-Given an integer array `nums`, write a function`sort_by_parity()`that moves all the even integers to the beginning of the array, followed by all the odd integers.
+Given an integer array `nums`, write a function `sort_by_parity()` that moves all the even integers to the beginning of the array, followed by all the odd integers.
 
 Return ***any array** that satisfies this condition*.
 

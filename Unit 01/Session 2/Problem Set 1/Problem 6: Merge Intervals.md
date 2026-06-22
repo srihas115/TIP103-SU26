@@ -1,8 +1,8 @@
 # Problem 6: Merge Intervals
 
-You are given an array of intervals, where each interval is represented as`[start, end]`.
+You are given an array of intervals, where each interval is represented as `[start, end]`.
 
-Write a function`merge_intervals(intervals)`that merges all overlapping intervals and returns a new array of the merged, non-overlapping intervals.
+Write a function `merge_intervals(intervals)` that merges all overlapping intervals and returns a new array of the merged, non-overlapping intervals.
 
 ```
 def merge_intervals(intervals):

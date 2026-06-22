@@ -2,7 +2,7 @@
 
 Christopher Robin is helping Pooh construct the biggest hunny jar possible.
 
-Help him write a function that accepts an integer array`heights`of length`n`. The height of each element is given by`heights[i]`.
+Help him write a function that accepts an integer array `heights` of length `n`. The height of each element is given by `heights[i]`.
 
 There are `n` vertical lines drawn such that the two endpoints of the `ith` line are `(i, 0)` and `(i, heights[i])`.
 
