@@ -1,4 +1,4 @@
-## Hashing & Big O
+## Unit 02: Hashing & Big O
 
 This unit we will start looking into Dictionary problems and practice solving them using the UMPIRE method we learned in the last unit.
 
