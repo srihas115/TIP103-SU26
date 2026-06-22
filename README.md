@@ -58,7 +58,7 @@ To make sure that you are prepared for the first session, go through the followi
 
 - **[Download the new 🤖 CodePath AI Tutor](https://go.codepath.org/tiptutor)**. You can find more details in **[Learning with AI ✨](https://courses.codepath.org/courses/tip103/pages/ai_welcome)**.
 
-- **[Download VSCode](https://code.visualstudio.com/download)** prior to the first day of class. You can find instructions on the **[IDE Setup](https://courses.codepath.org/courses/tip103/pages/ide_setup "IDE Setup")** guide.
+- **[Download VSCode](https://code.visualstudio.com/download)** prior to the first day of class. You can find instructions on the**[IDE Setup](https://courses.codepath.org/courses/tip103/pages/ide_setup "IDE Setup")** guide.
 
 - [**Explore the course portal and learn about the adaptive experience.**](https://www.loom.com/share/e6db5341ee9047cdbe5b9913991051ba)(6 minute video)
 
