@@ -4,14 +4,14 @@ In your time travel adventures, you are given an array of digit strings`portals`
 
 ***Note**: For index values`i`and`j`, the pairs`(i, j)`and`(j, i)`are considered different - order matters.*
 
-```
+```python
 def num_of_time_portals(portals, destination):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 portals1 = ["777", "7", "77", "77"]
 destination1 = "7777"
 portals2 = ["123", "4", "12", "34"]

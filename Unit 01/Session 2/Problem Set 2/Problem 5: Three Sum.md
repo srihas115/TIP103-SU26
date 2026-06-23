@@ -4,14 +4,14 @@ Given an integer array `nums`, return all the triplets `[nums[i], nums[j], nums[
 
 Notice that the solution set must not contain duplicate triplets.
 
-```
+```python
 def three_sum(nums):
     pass
 ```
 
 Example Usage
 
-```
+```python
 nums = [-1, 0, 1, 2, -1, -4]
 three_sum(nums)
 

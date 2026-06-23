@@ -7,14 +7,14 @@ Given an array `meals` of length `n` and `capacity` of size `m`, write a functio
 
 Note that meals from the same pack can be distributed into different boxes.
 
-```
+```python
 def minimum_boxes(meals, capacity):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 meals = [1, 3, 2]
 capacity = [4, 3, 1, 5, 2]
 minimum_boxes(meals, capacity)

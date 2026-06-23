@@ -13,14 +13,14 @@ Two sentences are similar if:
 
 Notice that a word is always similar to itself, also notice that the similarity relation is not transitive. For example, if the words`a`and`b`are similar, and the words`b`and`c`are similar,`a`and`c`are not necessarily similar.
 
-```
+```python
 def is_similar(sentence1, sentence2, similar_pairs):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 sentence1 = ["my", "type", "on", "paper"]
 sentence2 = ["my", "type", "in", "theory"]
 similar_pairs = [ ["on", "in"], ["paper", "theory"]]

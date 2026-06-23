@@ -10,14 +10,14 @@ The value of a mystical token is calculated based on the following rules:
 
 Your task is to calculate the total value of a given mystical token string.
 
-```
+```python
 def token_value(token):
   pass
 ```
 
 Example Usage:
 
-```
+```python
 print(token_value("()"))
 print(token_value("(())"))
 print(token_value("()()"))

@@ -9,14 +9,14 @@ Your task is to simulate the blueprint approval process using a queue. You will 
 
 Return the order in which the blueprints are approved.
 
-```
+```python
 def blueprint_approval(blueprints):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 print(blueprint_approval([3, 5, 2, 1, 4]))
 print(blueprint_approval([7, 4, 6, 2, 5]))
 ```

@@ -4,14 +4,14 @@ You've spent your last few trips exploring different periods of Ancient Greece. 
 
 You are given two lists of strings`artifacts1`and`artifacts2`representing the artifacts found in two different time periods. Write a function`find_common_artifacts()`that returns a list of artifacts common to both time periods.
 
-```
+```python
 def find_common_artifacts(artifacts1, artifacts2):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 artifacts1 = ["Statue of Zeus", "Golden Vase", "Bronze Shield"]
 artifacts2 = ["Golden Vase", "Silver Sword", "Bronze Shield"]
 

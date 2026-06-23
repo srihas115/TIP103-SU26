@@ -4,14 +4,14 @@ In the ancient Library of Alexandria, a temporal rift has scattered several impo
 
 Write a function`analyze_library()`that determines if any room has more or fewer scrolls than it should. The function should return a dictionary where the keys are the room names and the values are the differences in the number of scrolls (actual number of scrolls - expected number of scrolls). You must loop over the dictionaries to compute the differences.
 
-```
+```python
 def analyze_library(library_catalog, actual_distribution):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 library_catalog = {
     "Room A": 150,
     "Room B": 200,

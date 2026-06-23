@@ -8,14 +8,14 @@ You are tasked with organizing a collection of art prints represented by a list 
 
 Return the resulting array. If there are multiple answers, return any of them. Note that the 2D array can have a different number of elements on each row.
 
-```
+```python
 def organize_exhibition(collection):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 collection1 = ["O'Keefe", "Kahlo", "Picasso", "O'Keefe", "Warhol",
               "Kahlo", "O'Keefe"]
 collection2 = ["Kusama", "Monet", "Ofili", "Banksy"]

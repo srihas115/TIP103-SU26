@@ -2,14 +2,14 @@
 
 Write a function `add_matrices()` that accepts two `n x m` matrices `matrix1` and `matrix2`. The function should return an `n x m` matrix `sum_matrix` that is the sum of the given matrices such that each value in `sum_matrix` is the sum of values of corresponding elements in `matrix1` and `matrix2`.
 
-```
+```python
 def add_matrices(matrix1, matrix2):
     pass
 ```
 
 Example Usage
 
-```
+```python
 matrix1 = [
     [1, 2, 3],
     [4, 5, 6],

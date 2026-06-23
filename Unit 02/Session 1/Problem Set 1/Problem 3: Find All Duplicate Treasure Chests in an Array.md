@@ -2,14 +2,14 @@
 
 Captain Blackbeard has an integer array `chests` of length `n` where all the integers in `chests` are in the range `[1, n]` and each integer appears once or twice. Return an array of all the integers that appear twice, representing the treasure chests that have duplicates.
 
-```
+```python
 def find_duplicate_chests(chests):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 chests1 = [4, 3, 2, 7, 8, 2, 3, 1]
 chests2 = [1, 1, 2]
 chests3 = [1]

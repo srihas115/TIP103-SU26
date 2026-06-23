@@ -4,14 +4,14 @@ You are given an array `floors` representing the heights of different building f
 
 Return the number of skyscrapers you can build using the given floors.
 
-```
+```python
 def build_skyscrapers(floors):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 print(build_skyscrapers([10, 5, 8, 3, 7, 2, 9]))
 print(build_skyscrapers([7, 3, 7, 3, 5, 1, 6]))
 print(build_skyscrapers([8, 6, 4, 7, 5, 3, 2]))

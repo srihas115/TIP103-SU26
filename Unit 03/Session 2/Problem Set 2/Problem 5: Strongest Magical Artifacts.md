@@ -6,14 +6,14 @@ A magical artifact `artifacts[i]` is said to be stronger than `artifacts[j]` if 
 
 Return a list of the strongest `k` magical artifacts in the Mystical Market. Return the answer in any arbitrary order.
 
-```
+```python
 def get_strongest_artifacts(artifacts, k):
   pass
 ```
 
 Example Usage:
 
-```
+```python
 print(get_strongest_artifacts([1, 2, 3, 4, 5], 2))
 print(get_strongest_artifacts([1, 1, 3, 5, 5], 2))
 print(get_strongest_artifacts([6, 7, 11, 7, 6, 8], 5))

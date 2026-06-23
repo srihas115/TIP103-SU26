@@ -8,14 +8,14 @@ Return `intervals` after the insertion.
 
 You don't need to modify intervals in-place. You can make a new array and return it.
 
-```
+```python
 def insert_interval(intervals, new_interval):
     pass
 ```
 
 Example Usage
 
-```
+```python
 intervals = [[1, 3], [6, 9]]
 new_interval = [2, 5]
 insert_interval(intervals, new_interval)

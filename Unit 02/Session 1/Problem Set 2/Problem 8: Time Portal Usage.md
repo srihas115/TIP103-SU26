@@ -4,14 +4,14 @@ In your time travel adventures, you have been collecting data on the usage of di
 
 Return the adventure's "display table". The "display table" is a table whose row entries denote how many times each portal was used at each specific time. The first column is the portal number and the remaining columns correspond to each unique time in chronological order. The first row should be a header whose first column is "Portal", followed by the times in chronological order. Note that the traveler names are not part of the table. Additionally, the rows should be sorted in numerically increasing order.
 
-```
+```python
 def display_time_portal_usage(usage_records):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 usage_records1 = [["David","3","10:00"],
                   ["Corina","10","10:15"],
                   ["David","3","10:30"],

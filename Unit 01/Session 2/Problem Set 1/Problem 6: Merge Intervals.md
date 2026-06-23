@@ -4,14 +4,14 @@ You are given an array of intervals, where each interval is represented as `[sta
 
 Write a function `merge_intervals(intervals)` that merges all overlapping intervals and returns a new array of the merged, non-overlapping intervals.
 
-```
+```python
 def merge_intervals(intervals):
     pass
 ```
 
 Example Usage
 
-```
+```python
 intervals = [[1, 3], [2, 6], [8, 10], [15, 18]]
 merge_intervals(intervals)
 

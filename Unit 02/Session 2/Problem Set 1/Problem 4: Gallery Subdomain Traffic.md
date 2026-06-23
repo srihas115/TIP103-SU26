@@ -10,14 +10,14 @@ A**count-paired domain**is represented as`"rep d1.d2.d3"`where`rep`is the number
 
 Given an array of count-paired domains`cpdomains`, return an array of the count-paired domains of each subdomain. The order of the output does not matter.
 
-```
+```python
 def subdomain_visits(cpdomains):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 cpdomains1 = ["9001 modern.artmuseum.com"]
 cpdomains2 = ["900 abstract.gallery.com", "50 impressionism.com",
               "1 contemporary.gallery.com", "5 medieval.org"]

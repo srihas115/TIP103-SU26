@@ -4,7 +4,7 @@ Write a function `diagonal_sum()` that accepts a 2D `n x n` matrix `grid` and re
 
 The primary diagonal is all cells in the matrix along a line drawn from the top-left cell in the matrix to the bottom-right cell. The secondary diagonal is all cells in the matrix along a line drawn from the top-right cell in the matrix to the bottom-left cell.
 
-```
+```python
 def diagonal_sum(grid):
     pass
 ```
@@ -13,7 +13,7 @@ def diagonal_sum(grid):
 
 Example Usage
 
-```
+```python
 grid = [
     [1, 2, 3],
     [4, 5, 6],

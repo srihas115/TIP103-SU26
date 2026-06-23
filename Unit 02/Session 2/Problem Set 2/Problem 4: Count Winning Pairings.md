@@ -6,14 +6,14 @@ You are given an array of integers`star_power`where`star_power[i]`represents the
 
 Note that contestants with different indices are considered different even if they have the same star power.
 
-```
+```python
 def count_winning_pairings(star_power):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 star_power1 = [1, 3, 5, 7, 9]
 print(count_winning_pairings(star_power1))
 

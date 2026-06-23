@@ -10,14 +10,14 @@ Formally, a room layout is considered balanced if and only if:
 -   It can be represented as AB (A concatenated with B), where A and B are valid layouts, or
 -   It can be represented as (A), where A is a valid layout.
 
-```
+```python
 def make_balanced_room(s):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 print(make_balanced_room("art(t(d)e)sign)"))
 print(make_balanced_room("d)e(s)ign"))
 print(make_balanced_room("))(("))

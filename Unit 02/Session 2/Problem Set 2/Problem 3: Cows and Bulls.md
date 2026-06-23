@@ -11,14 +11,14 @@ Given the secret number`secret`and the contestant's guess`guess`, return the hin
 
 The hint should be formatted as`"xAyB"`, where`x`is the number of bulls and`y`is the number of cows. Note that both`secret`and`guess`may contain duplicate digits.
 
-```
+```python
 def get_hint(secret, guess):
     pass
 ```
 
 Example Input:
 
-```
+```python
 secret1 = "1807"
 guess1 = "7810"
 

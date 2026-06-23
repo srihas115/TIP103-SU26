@@ -8,14 +8,14 @@ You are given a string `items` consisting of lowercase English letters and two i
 
 You may perform these operations in any order and any number of times (as long as the substrings exist). Return the maximum total value you can obtain.
 
-```
+```python
 def maximum_value(items, x, y):
   pass
 ```
 
 Example Usage:
 
-```
+```python
 s1 = "cdbcbbaaabab"
 x1, y1 = 4, 5
 print(maximum_value(s1, x1, y1))

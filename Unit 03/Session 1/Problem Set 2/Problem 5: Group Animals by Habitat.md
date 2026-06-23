@@ -6,14 +6,14 @@ The order of species in the resultant sequence must remain the same as in the in
 
 Return a list of integers representing the size of these habitat groups.
 
-```
+```python
 def group_animals_by_habitat(habitats):
   pass
 ```
 
 Example Usage:
 
-```
+```python
 print(group_animals_by_habitat("ababcbacadefegdehijhklij"))
 print(group_animals_by_habitat("eccbbbbdec"))
 ```

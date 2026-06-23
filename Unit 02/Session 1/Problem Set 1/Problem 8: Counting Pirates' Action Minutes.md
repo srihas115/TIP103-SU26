@@ -10,14 +10,14 @@ You are to calculate a 1-indexed array `answer` of size `k` such that, for each 
 
 Return the array `answer` as described above.
 
-```
+```python
 def counting_pirates_action_minutes(logs, k):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 logs1 = [[0, 5], [1, 2], [0, 2], [0, 5], [1, 3]]
 k1 = 5
 logs2 = [[1, 1], [2, 2], [2, 3]]

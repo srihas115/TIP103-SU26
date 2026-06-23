@@ -8,14 +8,14 @@ Write a function`is_authentic_collection`that accepts an array of integers`art_p
 
 Note: A permutation of integers represents an arrangement of these numbers. For example`[3, 2, 1]`and`[2, 1, 3]`are both permutations of the series of numbers`1`,`2`, and`3`.
 
-```
+```python
 def is_authentic_collection(art_pieces):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 collection1 = [2, 1, 3]
 collection2 = [1, 3, 3, 2]
 collection3 = [1, 1]

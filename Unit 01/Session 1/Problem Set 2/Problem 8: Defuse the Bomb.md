@@ -11,14 +11,14 @@ As `code` is circular, the next element of `code[n-1]` is `code[0]`, and the pre
 
 Given the circular array `code` and an integer key `k`, write a function `decrypt()` that returns the decrypted code to defuse the bomb!
 
-```
+```python
 def defuse(code, k):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 code = [5, 7, 1, 4]
 k = 3
 defuse(code, k)

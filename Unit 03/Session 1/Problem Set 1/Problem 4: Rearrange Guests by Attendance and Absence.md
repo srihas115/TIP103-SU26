@@ -10,14 +10,14 @@ You should return the`guests`list rearranged to satisfy the following conditions
 
 Return the rearranged list after organizing the guests according to the conditions.
 
-```
+```python
 def rearrange_guests(guests):
   pass
 ```
 
 Example Usage:
 
-```
+```python
 print(rearrange_guests([3,1,-2,-5,2,-4]))
 print(rearrange_guests([-1,1]))
 ```

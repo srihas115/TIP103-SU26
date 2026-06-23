@@ -3,14 +3,14 @@ Write a function `smaller_than_current` that accepts a list of integers `nums` a
 
 Return the answer as a list.
 
-```
+```python
 def smaller_than_current(nums):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 nums = [8, 1, 2, 2, 3]
 smaller_than_current(nums)
 

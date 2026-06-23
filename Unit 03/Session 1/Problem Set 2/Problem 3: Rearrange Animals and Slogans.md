@@ -4,14 +4,14 @@ You are given a string`s`that consists of lowercase English letters representing
 
 After processing, your result should not contain any brackets.
 
-```
+```python
 def rearrange_animal_names(s):
   pass
 ```
 
 Example Usage:
 
-```
+```python
 print(rearrange_animal_names("(dribtacgod)"))
 print(rearrange_animal_names("(!(love(stac))I)"))
 print(rearrange_animal_names("adopt(yadot(a(tep)))!"))

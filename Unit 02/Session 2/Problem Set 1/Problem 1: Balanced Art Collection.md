@@ -6,14 +6,14 @@ Given an integer array `art_pieces` representing the value of each art piece, wr
 
 A **subsequence** is a sequence derived from the array by deleting some or no elements without changing the order of the remaining elements.
 
-```
+```python
 def find_balanced_subsequence(art_pieces):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 art_pieces1 = [1,3,2,2,5,2,2,8,3,7]
 art_pieces2 = [1,2,3,4]
 art_pieces3 = [1,1,1,1]

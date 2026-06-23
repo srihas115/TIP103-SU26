@@ -11,14 +11,14 @@ To achieve this, you are allowed to append characters to the**end**of`available`
 
 Return the**minimum number of characters**you need to append to the end of`available`so that`preferred`becomes a subsequence.
 
-```
+```python
 def append_animals(available, preferred):
   pass
 ```
 
 Example Usage:
 
-```
+```python
 print(append_animals("catsdogs", "cows"))
 print(append_animals("rabbit", "r"))
 print(append_animals("fish", "bird"))

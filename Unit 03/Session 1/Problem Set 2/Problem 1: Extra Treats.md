@@ -19,14 +19,14 @@ Return:
 -   `"Cat Lovers"`if the Cat Lovers will win.
 -   `"Dog Lovers"`if the Dog Lovers will win.
 
-```
+```python
 def predictAdoption_victory(votes):
   pass
 ```
 
 Example Usage:
 
-```
+```python
 print(predictAdoption_victory("CD"))
 print(predictAdoption_victory("CDD"))
 ```

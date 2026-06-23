@@ -4,14 +4,14 @@ In a reality TV show, contestants are challenged to do the best recreation of a 
 
 Help the contestants by writing a function`max_attempts()`that returns the maximum number of copies of`target_meal`they can create using the given`ingredients`. You can take some letters from`ingredients`and rearrange them to form new strings.
 
-```
+```python
 def max_attempts(ingredients, target_meal):
     pass
 ```
 
 Example Input:
 
-```
+```python
 ingredients1 = "aabbbcccc"
 target_meal1 = "abc"
 

@@ -3,14 +3,14 @@ Given an array `nums` with `n` integers, write a function `non_decreasing()`
 
 We define an array is non-decreasing if `nums[i] <= nums[i + 1]` holds for every `i` (**0-based**) such that (`0 <= i <= n - 2`).
 
-```
+```python
 def non_decreasing(nums):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 nums = [4, 2, 3]
 non_decreasing(nums)
 

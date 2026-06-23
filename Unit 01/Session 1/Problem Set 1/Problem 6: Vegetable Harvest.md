@@ -3,14 +3,14 @@ Rabbit is collecting carrots from his garden to make a feast for Pooh and friend
 
 Assume `n = len(vegetable_patch)` and `m = len(vegetable_patch[0])`. `0 <= i < n` and `0 <= j < m`.
 
-```
+```python
 def harvest(vegetable_patch):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 vegetable_patch = [
     ['x', 'c', 'x'],
     ['x', 'x', 'x'],

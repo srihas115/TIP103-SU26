@@ -3,14 +3,14 @@ Eeyore has collected two piles of sticks to rebuild his house and needs to choos
 
 A pair `(i, j)` is called **good** if `pile1[i]` is divisible by `pile2[j] * k`. Assume `0 <= i <= len(pile1) - 1` and `0 <= j <= len(pile2) - 1`.
 
-```
+```python
 def good_pairs(pile1, pile2, k):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 pile1 = [1, 3, 4]
 pile2 = [1, 3, 4]
 k = 1

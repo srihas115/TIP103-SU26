@@ -1,14 +1,14 @@
 # Problem 1: Words Containing Character
 Write a function `words_with_char()` that accepts a list of strings `words` and a character `x`. Return a list of indices representing the words that contain the character `x`. The returned list may be in any order.
 
-```
+```python
 def words_with_char(words, x):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 words = ["batman", "superman"]
 x = "a"
 words_with_char(words, x)

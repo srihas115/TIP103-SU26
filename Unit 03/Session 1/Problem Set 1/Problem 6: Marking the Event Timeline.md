@@ -20,14 +20,14 @@ In one turn, you can "mark" the timeline by placing the `event` string over any 
 
 Return a list of the starting indices where you placed the `event` string during each mark. If it is impossible to turn `t` into `timeline` following these rules, return an empty list.
 
-```
+```python
 def mark_event_timeline(event, timeline):
   pass
 ```
 
 Example Usage:
 
-```
+```python
 print(mark_event_timeline("abc", "ababc"))
 print(mark_event_timeline("abca", "aabcaca"))
 ```

@@ -2,14 +2,14 @@
 
 The Riddler is planning to leave a coded message to lead Batman into a trap. Write a function `shuffle()` that takes in a string, the Riddler's `message`, and encodes it using an integer array `indices`. The message will be shuffled such that the character at the `ith` position in `message` moves to index `indices[i]` in the shuffled string. You may assume `len(message)` is equal to the `len(indices)`.
 
-```
+```python
 def shuffle(message, indices):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 message = "evil"
 indices = [3, 1, 2, 0]
 shuffle(message, indices)

@@ -2,14 +2,14 @@
 
 As a time traveling linguist, you are analyzing texts written in an ancient script. However, some words in the text are illegible and can't be deciphered. Write a function`find_most_frequent_word()`that accepts a string`text`and a list of illegible words`illegibles`and returns the most frequent word in`text`that is not an illegible word.
 
-```
+```python
 def find_most_frequent_word(text, illegibles):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 paragraph1 = "a."
 illegibles1 = []
 print(find_most_frequent_word(paragraph1, illegibles1))

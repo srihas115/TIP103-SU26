@@ -6,14 +6,14 @@ We will use the integers 0, 1, and 2 to represent the colors red, white, and blu
 
 You must arrange the orbs in-place without using any library's sorting function.
 
-```
+```python
 def arrange_magical_orbs(orbs):
   pass
 ```
 
 Example Usage:
 
-```
+```python
 orbs1 = [2, 0, 2, 1, 1, 0]
 arrange_magical_orbs(orbs1)
 print(orbs1)

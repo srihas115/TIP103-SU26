@@ -15,14 +15,14 @@ You need to create a string `guest_order` of length `n + 1` that satisfies the f
     -   If `arrival_pattern[i] == 'D'`, then `guest_order[i] > guest_order[i + 1]`.
 3.  Among all valid orders, return the [lexicographically](https://en.wikipedia.org/wiki/Lexicographic_order) smallest one.
 
-```
+```python
 def arrange_guest_arrival_order(arrival_pattern):
   pass
 ```
 
 Example Usage:
 
-```
+```python
 print(arrange_guest_arrival_order("IIIDIDDD"))
 print(arrange_guest_arrival_order("DDD"))
 ```

@@ -6,14 +6,14 @@ Your gallery has entered a competition for the most beautiful collection. Your c
 
 Given a string`collection`, write a function`beauty_sum()`that returns*the sum of beauty of all of its substrings (subcollections)*, not just of the collection itself.
 
-```
+```python
 def beauty_sum(collection):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 print(beauty_sum("aabcb"))
 print(beauty_sum("aabcbaa"))
 ```

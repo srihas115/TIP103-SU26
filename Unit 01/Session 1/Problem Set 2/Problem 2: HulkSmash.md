@@ -6,14 +6,14 @@ Write a function `hulk_smash()` that accepts an integer `n` and returns a 1-inde
 -   `answer[i] == "Smash"` if `i` is divisible by `5`.
 -   `answer[i] == i` (as a string) if none of the above conditions are true.
 
-```
+```python
 def hulk_smash(n):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 n = 3
 hulk_smash(n)
 

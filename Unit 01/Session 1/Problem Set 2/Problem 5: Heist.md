@@ -5,14 +5,14 @@ If multiple customers have the highest wealth, return the index of any customer.
 
 A customer's wealth is the amount of money they have in all their bank accounts. The richest customer is the customer that has the maximum wealth.
 
-```
+```python
 def wealthiest_customer(accounts):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 accounts = [
     [1, 2, 3],
     [3, 2, 1]

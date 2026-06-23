@@ -4,14 +4,14 @@ You are an architect designing a corridor for a futuristic dream space. The corr
 
 You need to return the maximum possible area that can be achieved.
 
-```
+```python
 def max_corridor_area(segments):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 print(max_corridor_area([1, 8, 6, 2, 5, 4, 8, 3, 7]))
 print(max_corridor_area([1, 1]))
 ```

@@ -10,14 +10,14 @@ In the mystical market, chains of magical items are represented by a balanced pa
 
 Given a balanced string chain, return its total power score.
 
-```
+```python
 def score_of_mystical_market_chains(chain):
   pass
 ```
 
 Example Usage:
 
-```
+```python
 print(score_of_mystical_market_chains("()"))
 print(score_of_mystical_market_chains("(())"))
 print(score_of_mystical_market_chains("()()"))

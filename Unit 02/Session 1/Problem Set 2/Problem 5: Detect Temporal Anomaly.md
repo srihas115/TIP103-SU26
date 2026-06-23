@@ -4,14 +4,14 @@ As a time traveler, you have recorded the occurrences of specific events at diff
 
 ***Note**: The indices must be unique, but not the values`i`and`j`themselves.*
 
-```
+```python
 def detect_temporal_anomaly(time_points, k):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 
 time_points1 = [1, 2, 3, 1]
 k1 = 3

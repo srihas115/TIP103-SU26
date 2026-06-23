@@ -4,14 +4,14 @@ Write a function `transpose()` that accepts a 2D integer array `matrix` and retu
 
 [![3x3 matrix before and after being transposed](https://courses.codepath.org/course_images/tip103/unit1_session2/matrix_transpose_ex1.png "3x3 matrix before and after being transposed")](https://courses.codepath.org/course_images/tip103/unit1_session2/matrix_transpose_ex1.png)
 
-```
+```python
 def transpose(matrix):
     pass
 ```
 
 Example Usage
 
-```
+```python
 matrix = [
     [1, 2, 3],
     [4, 5, 6],

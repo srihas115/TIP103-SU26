@@ -9,14 +9,14 @@ Given a list`discomfort_levels`representing the discomfort levels of`n`animals, 
 
 Return the minimized maximum comfort level after optimally pairing up the animals.
 
-```
+```python
 def pair_up_animals(discomfort_levels):
   pass
 ```
 
 Example Usage:
 
-```
+```python
 print(pair_up_animals([3,5,2,3]))
 print(pair_up_animals([3,5,4,2,4,6]))
 ```

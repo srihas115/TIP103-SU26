@@ -4,14 +4,14 @@ In a reality TV show, contestants are assigned unique nicknames. However, two co
 
 You are given an array of strings`nicknames`representing the requested nicknames for the contestants. Return an array of strings where`result[i]`is the actual nickname assigned to the`i`th contestant.
 
-```
+```python
 def assign_unique_nicknames(nicknames):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 nicknames1 = ["Champ","Diva","Champ","Ace"]
 print(assign_unique_nicknames(nicknames1))
 

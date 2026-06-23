@@ -12,14 +12,14 @@ Your task is to **rearrange the `attendees` list** ***before*** the process star
 
 Write a function `reveal_attendee_list_in_order(attendees)` that returns an array with the correct starting order, such that when the attendees follow the above reveal process they walk on stage from smallest registration number to largest registration number.
 
-```
+```python
 def reveal_attendee_list_in_order(attendees):
   pass
 ```
 
 Example Usage:
 
-```
+```python
 print(reveal_attendee_list_in_order([17,13,11,2,3,5,7]))
 print(reveal_attendee_list_in_order([1,1000]))
 ```

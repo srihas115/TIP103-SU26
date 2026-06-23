@@ -6,14 +6,14 @@ You need to determine whether it is possible to pair all contestants such that t
 
 Return`True`if it is possible to form the required pairs, otherwise return`False`.
 
-```
+```python
 def pair_contestants(scores, k):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 scores1 = [1,2,3,4,5,10,6,7,8,9]
 k1 = 5
 print(pair_contestants(scores1, k1))

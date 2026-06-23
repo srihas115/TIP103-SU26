@@ -6,14 +6,14 @@ Return the minimum number of steps to make `map2` an anagram of `map1`.
 
 An Anagram of a string is a string that contains the same characters with a different (or the same) ordering.
 
-```
+```python
 def min_steps_to_match_maps(map1, map2):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 map1_1 = "bab"
 map2_1 = "aba"
 map1_2 = "treasure"

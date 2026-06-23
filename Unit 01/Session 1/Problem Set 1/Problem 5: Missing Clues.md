@@ -6,14 +6,14 @@ A clue `x` is considered missing if `x` is in the range `[lower, upper]` and `x`
 
 Return the shortest sorted list of ranges that exactly covers all the missing numbers. That is, no element of `clues` is included in any of the ranges, and each missing number is covered by one of the ranges.
 
-```
+```python
 def find_missing_clues(clues, lower, upper):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 clues = [0, 1, 3, 50, 75]
 lower = 0
 upper = 99

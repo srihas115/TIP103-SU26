@@ -12,14 +12,14 @@ You may swap the positions of any two walls any number of times.
 
 Return the minimum number of swaps needed to make the building layout balanced.
 
-```
+```python
 def min_swaps(s):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 print(min_swaps("][]["))
 print(min_swaps("]]][[["))
 print(min_swaps("[]"))

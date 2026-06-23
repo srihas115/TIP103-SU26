@@ -6,14 +6,14 @@ Given an array of integers `gold_amounts` representing the amount of gold at eac
 
 Assume that each input has exactly one solution, and you may not use the same location twice. You can return the answer in any order.
 
-```
+```python
 def find_treasure_indices(gold_amounts, target):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 gold_amounts1 = [2, 7, 11, 15]
 target1 = 9
 

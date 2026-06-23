@@ -2,14 +2,14 @@
 
 Captain Blackbeard has a treasure map with several clues that point to different locations on an island. Each clue is associated with a specific location and the number of treasures buried there. Given a dictionary `treasure_map` where keys are location names and values are integers representing the number of treasures buried at those locations, write a function `total_treasures()` that returns the total number of treasures buried on the island.
 
-```
+```python
 def total_treasures(treasure_map):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 treasure_map1 = {
     "Cove": 3,
     "Beach": 7,

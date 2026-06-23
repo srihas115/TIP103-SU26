@@ -6,14 +6,14 @@ However, due to some scheduling issues, the current `schedule` might not be bala
 
 Return the minimum number of moves required to make the `schedule` balanced.
 
-```
+```python
 def min_changes_to_make_balanced(schedule):
   pass
 ```
 
 Example Usage:
 
-```
+```python
 print(min_changes_to_make_balanced("())"))
 print(min_changes_to_make_balanced("((("))
 ```

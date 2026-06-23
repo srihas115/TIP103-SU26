@@ -4,14 +4,14 @@ Captain Feathersword has found another pirate's buried treasure, but they suspec
 
 Given a 0-indexed string `code` consisting of only lowercase English letters, write a function `can_make_balanced()` that returns `True` if it's possible to remove one letter so that the frequency of all remaining letters is equal, and `False` otherwise.
 
-```
+```python
 def can_make_balanced(code):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 code1 = "arghh"
 code2 = "haha"
 

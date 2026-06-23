@@ -12,7 +12,7 @@ Return the maximum amount of honey a container can store.
 
 **Notice** that you may not slant the container.
 
-```
+```python
 def most_honey(heights):
     pass
 ```
@@ -21,7 +21,7 @@ def most_honey(heights):
 
 Example Usage
 
-```
+```python
 height = [1, 8, 6, 2, 5, 4, 8, 3, 7]
 most_honey(height)
 

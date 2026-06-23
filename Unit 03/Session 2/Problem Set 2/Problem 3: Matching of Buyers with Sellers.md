@@ -6,14 +6,14 @@ A buyer can purchase from a seller if the buyer's gold is greater than or equal 
 
 Return the maximum number of transactions that can be made in the market that satisfy these conditions.
 
-```
+```python
 def match_buyers_and_sellers(buyers, sellers):
   pass
 ```
 
 Example Usage:
 
-```
+```python
 buyers1 = [4, 7, 9]
 sellers1 = [8, 2, 5, 8]
 print(match_buyers_and_sellers(buyers1, sellers1))

@@ -14,14 +14,14 @@ Both the input list`races`and your output list`answer`should be sorted in**incre
 
 Note: Only include travelers who have competed in at least one race — that is, those who appear as either a winner or a loser in the input list`races`. For example, if`races = [[1,2], [5, 6]`, that may imply the existence of racers`3`and`4`. However, since neither racer`3`nor`4`is included in the input list,`3`and`4`should also not appear in the output list`answer`.
 
-```
+```python
 def find_travelers(races):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 races1 = [[1, 3], [2, 3], [3, 6], [5, 6], [5, 7], [4, 5], [4, 8], [4, 9], [10, 4], [10, 9]]
 races2 = [[2, 3], [1, 3], [5, 4], [6, 4]]
 

@@ -8,14 +8,14 @@ Return a list of groups such that each pirate `i` is in a group of size `group_s
 
 Each pirate should appear in exactly one group, and every pirate must be in a group. If there are multiple answers, return any of them. It is guaranteed that there will be at least one valid solution for the given input.
 
-```
+```python
 def organize_pirate_crew(group_sizes):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 group_sizes1 = [3, 3, 3, 3, 3, 1, 3]
 group_sizes2 = [2, 1, 3, 3, 3, 2]
 

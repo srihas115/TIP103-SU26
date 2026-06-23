@@ -10,14 +10,14 @@ Your task is to rearrange the`attendees`list such that the following conditions 
 
 Return the`attendees`list after the rearrangement.
 
-```
+```python
 def arrange_attendees_by_priority(attendees, priority):
   pass
 ```
 
 Example Usage:
 
-```
+```python
 print(arrange_attendees_by_priority([9,12,5,10,14,3,10], 10))
 print(arrange_attendees_by_priority([-3,4,3,2], 2))
 ```

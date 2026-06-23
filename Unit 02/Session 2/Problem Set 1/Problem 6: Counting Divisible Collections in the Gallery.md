@@ -2,14 +2,14 @@
 
 You have a list of integers`collection_sizes`representing the sizes of different art collections in your gallery and are trying to determine how to group them to best fit in your space. Given an integer`k`write a function`count_divisible_collections()`that returns the number of non-empty subarrays (contiguous parts of the array) where the sum of the sizes is divisible by`k`.
 
-```
+```python
 def count_divisible_collections(collection_sizes, k):
     pass
 ```
 
 Example Usage:
 
-```
+```python
 nums1 = [4, 5, 0, -2, -3, 1]
 k1 = 5
 nums2 = [5]
