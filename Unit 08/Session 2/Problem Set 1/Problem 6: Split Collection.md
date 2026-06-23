@@ -44,7 +44,7 @@ print_tree(right)
 
 Example Output:
 
-![Example Left and Right Output Subtrees for 'collection'](./unit8_session2/split_bst_ouput_ex.png)
+<!-- Output image omitted because the source image is broken. -->
 
 ```plaintext
 ['Hoya', 'Aloe']

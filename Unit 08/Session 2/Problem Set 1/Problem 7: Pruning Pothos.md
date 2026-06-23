@@ -54,8 +54,7 @@ Healthy
 Example Usage 2:
 
 <!-- 
-This diagram is inaccurate
-!['pothos2' after each set of deletions](./unit8_session2/pruning_pothos_ex2.png) 
+This diagram is inaccurate, so the image was omitted.
 -->
 
 ```python
