@@ -1,0 +1,5 @@
+def blueprint_approval(blueprints):
+    pass
+
+print(blueprint_approval([3, 5, 2, 1, 4]))
+print(blueprint_approval([7, 4, 6, 2, 5]))
