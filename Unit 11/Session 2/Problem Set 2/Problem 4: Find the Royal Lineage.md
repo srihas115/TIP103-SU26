@@ -14,7 +14,7 @@ def find_kingdom_lineage(names, relationships):
 Example Usage:
 
 *Example 1:*
-![Example 1 graph diagram](./royal_lineage_ex1.png)
+![Example 1 graph diagram](../../Unit%20Assets/royal_lineage_ex1.png)
 
 ```python
 names_1 = ["Henry", "Elizabeth", "George", "Mary", "Charles", "William"]

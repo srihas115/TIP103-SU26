@@ -13,7 +13,7 @@ def min_effort(heights):
 
 Example Usage 1:
 
-!['terrain_1' with minimum effort path highlighted](./min_effort_ex1.png)
+!['terrain_1' with minimum effort path highlighted](../../Unit%20Assets/min_effort_ex1.png)
 
 ```python
 terrain_1 = [
@@ -35,7 +35,7 @@ through cells with minimal height differences.
 
 Example Input 2:
 
-!['terrain_2' with minimum effort path highlighted](./min_effort_ex2.png)
+!['terrain_2' with minimum effort path highlighted](../../Unit%20Assets/min_effort_ex2.png)
 
 ```python
 terrain_2 = [

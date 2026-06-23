@@ -18,7 +18,7 @@ def escape_subzones(safety):
 Example Usage: 
 
 *Example 1:*
-!['safety_1' matrix shown with safety zones shown and escapable subzones highlighted](./escape_infected_zone_ex1.png)
+!['safety_1' matrix shown with safety zones shown and escapable subzones highlighted](../../Unit%20Assets/escape_infected_zone_ex1.png)
 
 ```python
 safety_1 = [

@@ -15,7 +15,7 @@ def wisdom_pyramid(wisdomLevel):
 
 Example Usage:
 
-![Wisdom Pyramid](./pascals.gif)
+![Wisdom Pyramid](../../Unit%20Assets/pascals.gif)
 
 ```python
 print(wisdom_pyramid(3))

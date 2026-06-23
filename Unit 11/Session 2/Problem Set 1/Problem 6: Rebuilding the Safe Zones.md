@@ -13,7 +13,7 @@ def min_rebuilding_cost(n, connections):
 
 Example Usage 1:
 
-![Example 1 graph diagram](./rebuilding_safe_zones_ex1.png)
+![Example 1 graph diagram](../../Unit%20Assets/rebuilding_safe_zones_ex1.png)
 
 ```python
 connections_1 = [[1, 2, 5], [1, 3, 6], [2, 3, 1]]
@@ -31,7 +31,7 @@ The minimum cost to connect all the camps is to rebuild the road between camp 2 
 
 Example Usage 2:
 
-![Example 2 graph diagram](./rebuilding_safe_zones_ex2.png)
+![Example 2 graph diagram](../../Unit%20Assets/rebuilding_safe_zones_ex2.png)
 
 ```python
 connections_2 = [[1, 3, 2], [2, 4, 4]]

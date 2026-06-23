@@ -37,7 +37,7 @@ def copy_seating(seat):
 
 Example Usage:
 
-!['arrangement'](./copying_seating_arrangements.png)
+!['arrangement'](../../Unit%20Assets/copying_seating_arrangements.png)
 
 ```python
 lily = Node("Lily Gladstone")

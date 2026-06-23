@@ -13,7 +13,7 @@ def capture(map):
 
 Example Input:
 
-!['map' before and after capture](./surrounded_regions_ex1.jpg)
+!['map' before and after capture](../../Unit%20Assets/surrounded_regions_ex1.jpg)
 
 ```python
 map = [

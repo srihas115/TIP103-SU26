@@ -21,7 +21,7 @@ def vertical_inventory_display(root):
 
 Example Usage 1:
 
-!['inventory1' example tree with columns color coded](./vertical_display_ex1.png)
+!['inventory1' example tree with columns color coded](../../Unit%20Assets/vertical_display_ex1.png)
 
 ```python
 """
@@ -48,7 +48,7 @@ Example Output 1:
 
 Example Usage 2:
 
-!['inventory2' example tree with columns color coded](./vertical_display_ex2.png)
+!['inventory2' example tree with columns color coded](../../Unit%20Assets/vertical_display_ex2.png)
 
 ```python
 """

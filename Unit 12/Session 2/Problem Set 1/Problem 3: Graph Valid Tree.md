@@ -15,7 +15,7 @@ def valid_tree(n, edges):
 
 Example Usage 1:
 
-![Example 1 Graph](./graph_valid_tree_ex1.jpg)
+![Example 1 Graph](../../Unit%20Assets/graph_valid_tree_ex1.jpg)
 
 ```python
 edges_1 = [[0,1],[0,2],[0,3],[1,4]]
@@ -31,7 +31,7 @@ True
 
 Example Usage 2:
 
-![Example 2 Graph](./graph_valid_tree_ex2.jpg)
+![Example 2 Graph](../../Unit%20Assets/graph_valid_tree_ex2.jpg)
 
 ```python
 edges_2 = [[0,1],[1,2],[2,3],[1,3],[1,4]]

@@ -11,7 +11,7 @@ def get_all_destinations(flights, start):
 
 Example Usage:
 
-!['flights' graph diagram](./finding_all_reachable_destinations.png)
+!['flights' graph diagram](../../Unit%20Assets/finding_all_reachable_destinations.png)
 
 ```python
 flights = {

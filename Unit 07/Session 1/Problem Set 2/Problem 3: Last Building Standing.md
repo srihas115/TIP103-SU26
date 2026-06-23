@@ -21,7 +21,7 @@ def find_last_building(n, k):
 
 Example Usage:
 
-![Shows n buildings arranged in a circle and which is removed step by step](./last_building_standing_ex.png)
+![Shows n buildings arranged in a circle and which is removed step by step](../../Unit%20Assets/last_building_standing_ex.png)
 
 ```python
 print(find_last_building(5, 2))

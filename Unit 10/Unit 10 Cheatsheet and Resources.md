@@ -28,7 +28,7 @@ When diagramming graphs, labeled circles are used to represent nodes, and solid 
 
 For example, in the graph below, each node is a state and an edge between two nodes indicates that the states share a border.
 
-![Graph showing borders shared between Western US states](./graph_ex1.png)
+![Graph showing borders shared between Western US states](Unit%20Assets/graph_ex1.png)
 
 Nodes that share a direct edge are referred to as **neighbor** nodes. For example, California and Oregon are neighbors. California and Idaho are not neighbors because they do not share an edge, but it is possible to **reach** Idaho from California if we follow a **path** or sequence of edges that connects a series of nodes from California to Oregon and then to Idaho. Alternatively, we could follow the path from California to Nevada to Idaho, or even California to Oregon to Washington to Idaho. There are multiple paths between the two states.
 
@@ -44,11 +44,11 @@ Edges can also be **directed**. Directed edges are used to model one-way relatio
 
 For example, in the graph below, each node represents a city and each edge represents an available flight from one city to another. We can see that there exists a flight from Mexico City to Los Angeles and a corresponding flight in the opposite direction from Los Angeles to Mexico City. However, while there is a flight from Mexico City to São Paulo, there is no return flight in the other direction.
 
-![Graph showing flights between cities](./graph_ex2.png)
+![Graph showing flights between cities](Unit%20Assets/graph_ex2.png)
 
 Edges can also have **weights** or **costs**. We can add weights to the previous flights graph, where the weight of each edge represents the cost of the flight. For example the flight from Mexico City to Los Angeles has cost \$110, and the flight from Los Angeles to Mexico City has cost \$300.
 
-![Graph showing flight costs between cities](./graph_ex3.png)
+![Graph showing flight costs between cities](Unit%20Assets/graph_ex3.png)
 
 **Directed Acyclic Graphs (DAGs)**
 
@@ -56,7 +56,7 @@ Graphs can have **cycles**. A cycle is a path that starts at a particular node i
 
 In the example below, there is a cycle from node 1 to node 2 to node 3 and back to node 1.
 
-![Graph with cycle](./cycle_graph.png)
+![Graph with cycle](Unit%20Assets/cycle_graph.png)
 
 A directed acyclic graph (DAG) is a special type of graph that maintains the following properties:
 
@@ -102,7 +102,7 @@ In a linked list, all nodes are reachable from the `head` node. In a binary tree
 
 Using a singular `GraphNode` to represent a graph doesn't work well in graphs with multiple components. Using the `edges` property to access other nodes in the graph, we will be able to access any node for which there exists a path from the start node to the destination node. But we would never find disconnected components like the nodes for Hawaii and Alaska in the example below.
 
-![Graph showing borders shared between Western US states](./graph_ex1.png)
+![Graph showing borders shared between Western US states](Unit%20Assets/graph_ex1.png)
 
   
 
@@ -112,7 +112,7 @@ One basic way to represent a graph is with a list of edges. A list of edges is a
 
 Example Usage:
 
-![Undirected graph of 4 nodes labeled 0 to 3](./graph_ex4.png)
+![Undirected graph of 4 nodes labeled 0 to 3](Unit%20Assets/graph_ex4.png)
 
 
 ```plaintext
@@ -138,7 +138,7 @@ An adjacency list also uses a 2D list to represent a graph. However this time, t
 
 That is, `adjacency_list[i]` represents all the neighbors of node `i` in the graph. Example Usage:
 
-![Undirected graph of 4 nodes labeled 0 to 3](./graph_ex4.png)
+![Undirected graph of 4 nodes labeled 0 to 3](Unit%20Assets/graph_ex4.png)
 
 
 ```plaintext
@@ -160,7 +160,7 @@ Adjacency lists are also often represented using dictionaries. When using a dict
 
 Example Usage:
 
-![Undirected graph of 4 nodes labeled 0 to 3](./graph_ex4.png)
+![Undirected graph of 4 nodes labeled 0 to 3](Unit%20Assets/graph_ex4.png)
 
 
 ```plaintext
@@ -177,7 +177,7 @@ Because we label nodes by key instead of index, we can easily use a dictionary t
 
 Example Usage:
 
-![Graph showing flights between cities](./graph_ex2.png)
+![Graph showing flights between cities](Unit%20Assets/graph_ex2.png)
 
 
 ```plaintext
@@ -196,7 +196,7 @@ To represent a weighted graph in either an adjacency list or dictionary, we use 
 
 Example Usage:
 
-![Graph showing flight costs between cities](./graph_ex3.png)
+![Graph showing flight costs between cities](Unit%20Assets/graph_ex3.png)
 
 
 ```plaintext
@@ -217,7 +217,7 @@ In an adjacency matrix we create an `n x n` 2D list or matrix to represent the g
 
 You may occasionally see boolean values of `True`/`False` used in place of `0`/`1`.
 
-![Undirected graph of 4 nodes labeled 0 to 3](./graph_ex4.png)
+![Undirected graph of 4 nodes labeled 0 to 3](Unit%20Assets/graph_ex4.png)
 
 
 ```plaintext
@@ -258,7 +258,7 @@ Inside our loop, we dequeue a node - initially this is our starting node. We the
 
 Then we start our outer loop again! Because queues are first-in-first-out, the next nodes to be visited will be the starting node's neighbors!
 
-![breadth first search animation](./bfs.gif)
+![breadth first search animation](Unit%20Assets/bfs.gif)
 
 The pseudocode for BFS is as follows:
 
@@ -290,7 +290,7 @@ Once it reaches a dead-end, it will return to the most recently visited node whe
 
 As with BFS, we need to keep track of which nodes we have already visited to avoid getting stuck in a cycle and ensure that we only traverse each node once.
 
-![depth first search animation](./dfs.gif)
+![depth first search animation](Unit%20Assets/dfs.gif)
 
 DFS uses a stack to determine which node to visit next. We start by adding our starting node to the stack. Then we begin a loop that continues iterating so long as the stack is not empty (so long as there are still nodes left to visit).
 

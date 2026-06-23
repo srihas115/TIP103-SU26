@@ -12,7 +12,7 @@ def min_path_sum(grid):
 Example Usage:
 
 *Example 1:*
-![Example 1 Grid With Minimum Sum Path Highlighted](./minimum_path_sum_ex1.jpg)
+![Example 1 Grid With Minimum Sum Path Highlighted](../../Unit%20Assets/minimum_path_sum_ex1.jpg)
 
 ```python
 grid_1 = [[1,3,1],[1,5,1],[4,2,1]]

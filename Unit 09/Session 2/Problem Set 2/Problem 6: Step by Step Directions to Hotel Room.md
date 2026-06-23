@@ -24,7 +24,7 @@ def count_cursed_hallways(hotel, current_location, room_number):
 
 Example Usage 1:
 
-![Example tree 'hotel1' with arrows of showing shortest path](./step_by_step_directions_to_hotel_room_ex1.png)
+![Example tree 'hotel1' with arrows of showing shortest path](../../Unit%20Assets/step_by_step_directions_to_hotel_room_ex1.png)
 
 ```python
 """
@@ -50,7 +50,7 @@ Explanation: The shortest path is: 3 -> 1 -> 5 -> 2 -> 6
 
 Example Usage 2:
 
-![Example tree 'hotel2' with arrows of showing shortest path](./step_by_step_directions_to_hotel_room_ex2.png)
+![Example tree 'hotel2' with arrows of showing shortest path](../../Unit%20Assets/step_by_step_directions_to_hotel_room_ex2.png)
 
 ```python
 """

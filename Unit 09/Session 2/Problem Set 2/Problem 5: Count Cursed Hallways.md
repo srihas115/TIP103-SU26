@@ -21,7 +21,7 @@ def count_cursed_hallways(hotel, target_sum):
 
 Example Usage:
 
-![example tree 'hotel' with paths that add up to 'target_sum' 8 circled](./count_cursed_hallways_ex.jpg)
+![example tree 'hotel' with paths that add up to 'target_sum' 8 circled](../../Unit%20Assets/count_cursed_hallways_ex.jpg)
 
 ```python
 """

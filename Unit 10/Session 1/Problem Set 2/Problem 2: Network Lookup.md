@@ -16,7 +16,7 @@ def get_adj_matrix(clients):
 
 Example Usage:
 
-!['clients' graph diagram](./network_lookup.png)
+!['clients' graph diagram](../../Unit%20Assets/network_lookup.png)
 
 ```python
 clients = [

@@ -11,7 +11,7 @@ def calculate_cost(flights, start, dest):
 
 Example Usage:
 
-![`flights` graph diagram](./get_flight_cost.png)
+![`flights` graph diagram](../../Unit%20Assets/get_flight_cost.png)
 
 ```python
 flights = {

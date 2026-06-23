@@ -24,10 +24,10 @@ def distribute_coins(root):
 Example Usage:
 
 Example 1:
-!['root1' tree with movement of coins shown](./unit8_session2/distributing_sunken_treasure_ex1.png)
+!['root1' tree with movement of coins shown](../../Unit%20Assets/distributing_sunken_treasure_ex1.png)
 
 Example 2:
-!['root2' tree with movement of coins shown](./unit8_session2/distributing_sunken_treasure_ex2.png)
+!['root2' tree with movement of coins shown](../../Unit%20Assets/distributing_sunken_treasure_ex2.png)
 
 ```python
 """

@@ -16,7 +16,7 @@ def max_survival_probability(n, edges, succ_prob, start, end):
 
 Example Usage 1:
 
-![Example 1 Graph Diagram](./maximizing_zombie_avoidance_ex1.png)
+![Example 1 Graph Diagram](../../Unit%20Assets/maximizing_zombie_avoidance_ex1.png)
 
 ```python
 edges_1 = [[0, 1], [1, 2], [0, 2]]
@@ -38,7 +38,7 @@ The safest path has a probability of 0.25.
 
 Example Usage 2:
 
-![Example 2 Graph Diagram](./maximizing_zombie_avoidance_ex2.png)
+![Example 2 Graph Diagram](../../Unit%20Assets/maximizing_zombie_avoidance_ex2.png)
 
 ```python
 edges_2 = [[0, 1], [1, 2], [0, 2]]
@@ -60,7 +60,7 @@ The safest path has a probability of 0.3.
 
 Example Usage 3:
 
-![Example 3 Graph Diagram](./maximizing_zombie_avoidance_ex3.png)
+![Example 3 Graph Diagram](../../Unit%20Assets/maximizing_zombie_avoidance_ex3.png)
 
 ```python
 edges_3 = [[0, 1]]

@@ -13,7 +13,7 @@ def find_center(terminals):
 
 Example Usage:
 
-!['terminals1' graph diagram](./star_graph.png)
+!['terminals1' graph diagram](../../Unit%20Assets/star_graph.png)
 
 ```python
 terminals1 = [[1,2],[2,3],[4,2]]

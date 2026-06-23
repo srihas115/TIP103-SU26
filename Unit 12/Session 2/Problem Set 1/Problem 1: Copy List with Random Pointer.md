@@ -39,7 +39,7 @@ def copy_random_list(head):
 
 Example Usage 1:
 
-![Example 1 Linked List with Random Pointers Shown](./copy_list_with_random_pointer_ex1.png)
+![Example 1 Linked List with Random Pointers Shown](../../Unit%20Assets/copy_list_with_random_pointer_ex1.png)
 
 ```python
 seven = Node(7)
@@ -79,7 +79,7 @@ that the ids of the original list do not match the ids of the copied list.
 
 Example Usage 2:
 
-![Example 2 Linked List with Random Pointers Shown](./copy_list_with_random_pointer_ex2.png)
+![Example 2 Linked List with Random Pointers Shown](../../Unit%20Assets/copy_list_with_random_pointer_ex2.png)
 
 ```python
 one = Node(1)
@@ -106,7 +106,7 @@ Example Output 2:
 
 Example Usage 3: 
 
-![Example 3 Linked List with Random Pointers Shown](./copy_list_with_random_pointer_ex3.png)
+![Example 3 Linked List with Random Pointers Shown](../../Unit%20Assets/copy_list_with_random_pointer_ex3.png)
 
 ```python
 first = Node(3)

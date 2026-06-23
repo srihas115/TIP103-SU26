@@ -69,7 +69,7 @@ The recursive solution is inefficient because it repeatedly solves some of the s
 
 This solution is inefficent because we repeatedly solve the same subproblems. For example, notice that to find the 5th Tribonacci number `tribonacci_recursive(5)`, we make the function call `tribonacci_recursive(2)` four separate times.
 
-![Recursive Calls for tribonacci_recursive(5)](./tribonacci_recursive.png)
+![Recursive Calls for tribonacci_recursive(5)](Unit%20Assets/tribonacci_recursive.png)
 
 To eliminate the need for repeated recursive calls on the same problem, we can instead create an array to **memoize** or store the results to smaller subproblems as we encounter them.
 

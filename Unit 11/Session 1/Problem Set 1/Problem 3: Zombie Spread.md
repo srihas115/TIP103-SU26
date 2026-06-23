@@ -12,7 +12,7 @@ def time_to_infect(grid):
 Example Usage:
 
 *Example 1:*
-![`grid_1` showing infection spread every hour](./zombie_spread_ex1.png)
+![`grid_1` showing infection spread every hour](../../Unit%20Assets/zombie_spread_ex1.png)
 
 ```python
 grid_1 = [

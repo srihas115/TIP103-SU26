@@ -30,7 +30,7 @@ grid = [
 
 And represent it as the following graph:
 
-!['grid' elements represented as graph](./matrix_as_graph.png)
+!['grid' elements represented as graph](Unit%20Assets/matrix_as_graph.png)
 
 Certain matrix problems may place additional constraints on whether or not an edge exists between two cells in a matrix. For example, imagine a binary matrix where each cell has a value of either `0` or `1`. You would like to find if there exists a path of `1` values from some position `start = (start_row, start_col)` in the matrix to another position `destination = (dest_row, dest_col)` in the matrix.
 
@@ -46,7 +46,7 @@ grid = [
 
 Since we may only travel between cells with value `1`, in our graph representation of this matrix there should only exist edges between horizontally and vertically adjacent cells with value `1`.
 
-!['grid' elements represented as graph with edges only between cells with value 1](./binary_matrix_as_graph.png)
+!['grid' elements represented as graph with edges only between cells with value 1](Unit%20Assets/binary_matrix_as_graph.png)
 
 When we reimagine matrices as graphs, we can then apply graph algorithms such as Breadth First and Depth First Search to the matrix. We can perform these algorithms directly on the matrix without needing to convert the matrix to another graph representation like an adjacency list or adjacency matrix. To do so, we choose a starting cell at some `(row, column)` position in the matrix as our starting "node" and consider cells up, down, left, and right of the current cell potential neighbors. Depending on the problem constraints, we may need to make additional considerations to determine whether each horizontally and vertically adjacent cell is an actual neighbor (ex. whether each potential neighbor has value `1`).
 
@@ -79,7 +79,7 @@ Pseudocode for DFS on a Matrix:
 
 Flood fill is an algorithm commonly used to fill a connected area in a matrix, starting from a specific point. It spreads out to neighboring cells based on certain conditions. The idea is to "flood" an unfilled area with a new color or value by filling all connected cells that meet a given condition, typically horizontally and vertically adjacent cells that have the same initial color.
 
-![Grid flood filled using BFS approach](./flood_fill_bfs.gif)
+![Grid flood filled using BFS approach](Unit%20Assets/flood_fill_bfs.gif)
 
 Flood fill is commonly used in applications like:
 
@@ -113,7 +113,7 @@ Backtracking is an algorithmic technique that involves building a solution incre
 
 A classic example of a backtracking problem is finding a path through a maze. At each fork in the maze, we choose one option. At each successive fork, we continue to choose an option until we hit a dead end. When that happens, we turn around to the last fork in the maze and choose another route. We continue doing this until we have exhausted all our options or found a viable path out of the maze!
 
-![Animation showing backtracking path through a maze](./backtracking_maze.gif) Source: [via Brilliant.org](https://brilliant.org/wiki/depth-first-search-dfs/)
+![Animation showing backtracking path through a maze](Unit%20Assets/backtracking_maze.gif) Source: [via Brilliant.org](https://brilliant.org/wiki/depth-first-search-dfs/)
 
 Backtracking is not a graph-specific algorithm. Rather, it describes a general technique that is commonly applied to problems that involve:
 
@@ -274,11 +274,11 @@ With a weighted graph, finding the shortest path between two nodes is different.
 
 For example, below are two versions of the same graph. One is weighted while the other is weighted. If we wanted to find the shortest path from B to D, in the unweighted version we would say the shortest path is the direct edge from `B -> D` for a path length of `1`. In the weighted version however, we would say the shortest path is `B -> A -> C -> D` for a total path length of `4` equal to the sum of the edge weights. This is because the direct edge `B -> D` has a greater weight of `10`.
 
-![4 Node graph unweighted and weighted](./unweighted_v_weighted.png)
+![4 Node graph unweighted and weighted](Unit%20Assets/unweighted_v_weighted.png)
 
 Dijkstra's algorithm works by initially overestimating the cost to travel from the start node to every other node in the graph. Then, it follows a pattern similar to BFS. Beginning at the start node, the algorithm visits each neighbor of the current node. As it visits new nodes, the algorithm uses the weights of the corresponding edges to adjust the original estimated cost to each neighbor. If it finds that the total cost of a path from the start node to the neighbor is less than the currently estimated cost, it will update the minimum cost and path. Once Dijkstra's has explored the entire graph, we know we have found the shortest path to each node from the start node.
 
-![Shortest path between A and G](./dijkstra.gif) Source: [via graphable.ai](https://www.graphable.ai/blog/pathfinding-algorithms/)
+![Shortest path between A and G](Unit%20Assets/dijkstra.gif) Source: [via graphable.ai](https://www.graphable.ai/blog/pathfinding-algorithms/)
 
 Pseudcode for Dijkstra's Algorithm:
 
@@ -318,13 +318,13 @@ For example, in many binary matrix/graph problems, we may want to group cells/no
 1.  Nodes with value `1`
 2.  Nodes with value `0`
 
-![Binary matrix split into two sets by value](./disjoint_sets_ex.png)
+![Binary matrix split into two sets by value](Unit%20Assets/disjoint_sets_ex.png)
 
   
 
 The Union Find data structure also provides two key methods:
 
-1.  **Union**: Combines two sets into a single set. ![Two sets joined together](./union.png)
+1.  **Union**: Combines two sets into a single set. ![Two sets joined together](Unit%20Assets/union.png)
 2.  **Find**: Determines which set a particular element belongs to.
 
   
@@ -352,13 +352,13 @@ When implementing the Union Find data structure, each distinct set is thought of
 
 The root node of each structure is also called the **representative node** and is used to represent each set.
 
-![Two sets represented as trees with representative nodes highlighted](./union_find_trees.png)
+![Two sets represented as trees with representative nodes highlighted](Unit%20Assets/union_find_trees.png)
 
 When we use the `find()` method, the operation will determine which set an element `x` belongs to by returning the representative of the set. All elements in the same set share the same representative. The representative of the representative node is itself.
 
 Example Usage:
 
-![find() results for set where 'A' is the representative node](./find_operation.png)
+![find() results for set where 'A' is the representative node](Unit%20Assets/find_operation.png)
 
 
 ```plaintext
@@ -373,7 +373,7 @@ find('D') # Output: 'A'
 
 The **rank** of a set is the depth or size of its tree. When we `union()` or merge two sets together, we take the representative/root node of the tree with the smaller rank and set it as the child of the representative/root node of the tree with the larger rank. The representative node of the larger set becomes the representative of the merged set
 
-![Union of two sets](./union_two_sets.png)
+![Union of two sets](Unit%20Assets/union_two_sets.png)
 
   
 
@@ -402,7 +402,7 @@ class DSU:
 
 The find method follows the parent pointers up the tree until it finds the representative/root of the set (an element that is its own parent).
 
-![Parent path for Node C](./find_ex.png)
+![Parent path for Node C](Unit%20Assets/find_ex.png)
 
 
 ```plaintext

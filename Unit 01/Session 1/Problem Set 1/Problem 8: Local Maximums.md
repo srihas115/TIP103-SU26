@@ -10,7 +10,7 @@ def local_maximums(grid):
     pass
 ```
 
-![alt text](image.png)
+![alt text](../../Unit%20Assets/image.png)
 
 Example Usage:
 

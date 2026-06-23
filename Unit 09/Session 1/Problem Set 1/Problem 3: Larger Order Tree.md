@@ -22,7 +22,7 @@ def larger_order_tree(orders):
 
 Examples Usage:
 
-![Example 'orders' tree with both original node vlaue and larger order value listed](./larger_order_tree.png)
+![Example 'orders' tree with both original node vlaue and larger order value listed](../../Unit%20Assets/larger_order_tree.png)
 
 ```python
 """

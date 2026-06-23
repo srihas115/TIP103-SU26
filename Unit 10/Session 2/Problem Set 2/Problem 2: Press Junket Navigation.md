@@ -11,7 +11,7 @@ def find_path(venue_map, target):
 
 Example Usage:
 
-!['venue_map' graph diagram](./venue_map.png)
+!['venue_map' graph diagram](../../Unit%20Assets/venue_map.png)
 
 ```python
 venue_map = [

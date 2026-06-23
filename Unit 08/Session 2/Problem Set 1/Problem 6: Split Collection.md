@@ -21,7 +21,7 @@ def split_collection(collection, target):
 
 Example Usage:
 
-![Example input BST 'collection'](./unit8_session2/split_bst_input.png)
+![Example input BST 'collection'](../../Unit%20Assets/split_bst_input.png)
 
 ```python
 """

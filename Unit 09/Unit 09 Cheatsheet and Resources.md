@@ -16,7 +16,7 @@ General Concepts  ✅ In-Scope
 
 Breadth First Search (BFS), also known as Level Order Traversal, is a method for visiting all the nodes in a tree. In a breadth first search approach, we visit nodes level by level. We begin by traversing the tree's root node, then traversing the root's direct children from left to right, followed by the root's grandchildren, etc.
 
-![BFS Animation showing nodes in a four level tree being visited top down, left to right](./bfs.gif)
+![BFS Animation showing nodes in a four level tree being visited top down, left to right](Unit%20Assets/bfs.gif)
 
 In the diagram above, nodes that are outlined in pink have been added to the queue. Nodes shaded in pink have been visited and removed from the queue. The root node, at level 1, is visited first. Then the root node's children at level 2, nodes 7 and 25, are visited. The pattern continues until the nodes have been explored in the following order: `[19, 7, 25, 5, 22, 71, 6, 30, 96]`.
 

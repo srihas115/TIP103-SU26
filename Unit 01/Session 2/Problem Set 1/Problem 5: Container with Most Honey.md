@@ -17,7 +17,7 @@ def most_honey(heights):
     pass
 ```
 
-![alt text](image.png)
+![alt text](../../Unit%20Assets/image.png)
 
 Example Usage
 

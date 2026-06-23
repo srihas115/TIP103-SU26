@@ -15,7 +15,7 @@ def bacon_number(bacon_network, celeb):
 
 Example Usage:
 
-!['bacon network' graph diagram](./bacon_number.png)
+!['bacon network' graph diagram](../../Unit%20Assets/bacon_number.png)
 
 ```python
 bacon_network = {

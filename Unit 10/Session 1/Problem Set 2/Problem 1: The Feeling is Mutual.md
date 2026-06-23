@@ -11,10 +11,10 @@ Example Usage:
 
 *Example 1: `celebrities1`*
 
-!['celebrities1' graph diagram](./the_feeling_is_mutual_ex1.png)
+!['celebrities1' graph diagram](../../Unit%20Assets/the_feeling_is_mutual_ex1.png)
 
 *Example 2: `celebrities2`*
-!['celebrities2' graph diagram](./the_feeling_is_mutual_ex2.png)
+!['celebrities2' graph diagram](../../Unit%20Assets/the_feeling_is_mutual_ex2.png)
 
 ```python
 celebrities1 = [

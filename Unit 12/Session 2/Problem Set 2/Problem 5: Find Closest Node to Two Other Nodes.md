@@ -17,7 +17,7 @@ def closest_meeting_node(edges, node1, node2):
 
 Example Usage 1:
 
-![Example 1 Graph](./closest_node_ex1.png)
+![Example 1 Graph](../../Unit%20Assets/closest_node_ex1.png)
 
 ```python
 edges_1 = [2,2,3,-1]
@@ -37,7 +37,7 @@ smaller maximum distance than 1, so we return node 2.
 
 Example Usage 2:
 
-![Example 2 Graph](./closest_node_ex2.png)
+![Example 2 Graph](../../Unit%20Assets/closest_node_ex2.png)
 
 ```python
 edges_2 = [1,2,-1]

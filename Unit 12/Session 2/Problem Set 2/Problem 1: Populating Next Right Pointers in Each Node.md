@@ -52,7 +52,7 @@ def connect(root):
 
 Example Usage:
 
-![Example Input Tree and Tree with Next Pointers Shown](./populating_next_right_pointers_ex1.png)
+![Example Input Tree and Tree with Next Pointers Shown](../../Unit%20Assets/populating_next_right_pointers_ex1.png)
 
 ```python
 values = [1, 2, 3, 4, 5, 6, 7]

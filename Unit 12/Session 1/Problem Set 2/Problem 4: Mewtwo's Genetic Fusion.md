@@ -14,7 +14,7 @@ def genetic_fusion(dna1, dna2, dna3):
 Example Usage:
 
 *Example 1:*
-![Example 1 showing interleaving of dna1 and dna2](./mewtwos_genetic_fusion.jpg)
+![Example 1 showing interleaving of dna1 and dna2](../../Unit%20Assets/mewtwos_genetic_fusion.jpg)
 
 ```python
 print(genetic_fusion("aabcc", "dbbca", "aadbbcbcac"))

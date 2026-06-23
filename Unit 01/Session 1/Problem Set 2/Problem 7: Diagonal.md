@@ -9,7 +9,7 @@ def diagonal_sum(grid):
     pass
 ```
 
-![alt text](image.png)
+![alt text](../../Unit%20Assets/image.png)
 
 Example Usage
 

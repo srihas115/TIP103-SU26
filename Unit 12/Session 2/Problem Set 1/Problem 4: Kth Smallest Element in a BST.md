@@ -15,7 +15,7 @@ def kth_smallest(root, k):
 
 Example Usage 1:
 
-![Example 1 Tree](./kth_smallest_element_bst_ex1.jpg)
+![Example 1 Tree](../../Unit%20Assets/kth_smallest_element_bst_ex1.jpg)
 
 ```python
 values_1 = [3, 1, 4, None, 2]
@@ -33,7 +33,7 @@ Example Output 1:
 
 Example Usage 2: 
 
-![Example 1 Tree](./kth_smallest_element_bst_ex2.jpg)
+![Example 1 Tree](../../Unit%20Assets/kth_smallest_element_bst_ex2.jpg)
 
 ```python
 values_2 = [5, 3, 6, 2, 4, None, None, 1]

@@ -12,7 +12,7 @@ def prepare_winter_roads(outposts):
 Example Usage:
 
 *Example 1:*
-![`outputs_1` mapped on coordinate plane with manhattan distance shown](./prepare_winter_roads_ex1.png)
+![`outputs_1` mapped on coordinate plane with manhattan distance shown](../../Unit%20Assets/prepare_winter_roads_ex1.png)
 
 ```python
 outposts_1 = [[0, 0], [2, 2], [3, 10], [5, 2], [7, 0]]

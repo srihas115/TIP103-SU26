@@ -6,7 +6,7 @@ You're walking down the hotel hallway one night and something strange begins to 
 2. The original root becomes the new right child
 3. The original right child becomes the new left child. 
 
-![Three node tree showing each step applied to tree](./topsy_turvy.jpg)
+![Three node tree showing each step applied to tree](../../Unit%20Assets/topsy_turvy.jpg)
 
 The above steps are done level by level. It is **guaranteed** each right node has a sibling (a left node with the same parent) and has no children.
 
@@ -28,7 +28,7 @@ def flip_hotel(hotel):
 
 Example Usage:
 
-!['hotel' example tree after each step](./topsy_turvy_ex.jpg)
+!['hotel' example tree after each step](../../Unit%20Assets/topsy_turvy_ex.jpg)
 
 ```python
 """

@@ -11,10 +11,10 @@ Example Usage:
 
 *Example 1: `flights1`*
 
-!['flights1' graph diagram](./there_and_back_ex1.png)
+!['flights1' graph diagram](../../Unit%20Assets/there_and_back_ex1.png)
 
 *Example 2: `flights2`*
-!['flights2' graph diagram](./there_and_back_ex2.png)
+!['flights2' graph diagram](../../Unit%20Assets/there_and_back_ex2.png)
 
 ```python
 flights1 = [[1, 2], [0], [0, 3], [2]]

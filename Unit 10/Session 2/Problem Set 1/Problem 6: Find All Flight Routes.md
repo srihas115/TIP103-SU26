@@ -13,7 +13,7 @@ def find_all_flight_routes(flight_routes):
 
 Example Usage 1:
 
-!['flight_routes_2' graph diagram](./find_all_flight_routes_ex1.jpg)
+!['flight_routes_2' graph diagram](../../Unit%20Assets/find_all_flight_routes_ex1.jpg)
 
 ```python
 flight_routes_1 = [[1, 2], [3], [3], []]
@@ -33,7 +33,7 @@ Explanation:
 
 Example Usage 2:
 
-!['flight_routes_2' graph diagram](./find_all_flight_routes_ex2.jpg)
+!['flight_routes_2' graph diagram](../../Unit%20Assets/find_all_flight_routes_ex2.jpg)
 
 ```python
 flight_routes_2 = [[4,3,1],[3,2,4],[3],[4],[]]

@@ -11,7 +11,7 @@ def have_connection(celebs, start_celeb, target_celeb):
 
 Example Usage:
 
-!['celebs' graph diagram](./casting_call_search.png)
+!['celebs' graph diagram](../../Unit%20Assets/casting_call_search.png)
 
 ```python
 celebs = [

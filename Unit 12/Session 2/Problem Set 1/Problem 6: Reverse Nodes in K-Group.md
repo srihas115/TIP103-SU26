@@ -18,7 +18,7 @@ def reverse_k_group(head, k):
 
 Example Usage 1:
 
-![Example 1 List Before and After Reversal](./reverse_nodes_k_group_ex1.jpg)
+![Example 1 List Before and After Reversal](../../Unit%20Assets/reverse_nodes_k_group_ex1.jpg)
 
 ```python
 list_1 = Node(1, Node(2, Node(3, Node(4, Node(5)))))
@@ -35,7 +35,7 @@ Example Output 1:
 
 Example Usage 2:
 
-![Example 2 List Before and After Reversal](./reverse_nodes_k_group_ex2.jpg)
+![Example 2 List Before and After Reversal](../../Unit%20Assets/reverse_nodes_k_group_ex2.jpg)
 
 ```python
 list_2 = Node(1, Node(2, Node(3, Node(4, Node(5)))))

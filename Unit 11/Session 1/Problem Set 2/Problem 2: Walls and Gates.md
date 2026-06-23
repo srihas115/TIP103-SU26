@@ -14,7 +14,7 @@ def walls_and_gates(castle):
 
 Example Usage:
 
-!['castle' example before and after shortest paths found](./walls_and_gates.jpg)
+!['castle' example before and after shortest paths found](../../Unit%20Assets/walls_and_gates.jpg)
 
 ```python
 castle = [

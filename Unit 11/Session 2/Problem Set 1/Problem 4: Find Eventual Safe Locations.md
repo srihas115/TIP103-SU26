@@ -14,7 +14,7 @@ def eventual_safe_locations(city):
 Example Usage:
 
 *Example 1:*
-!['city_1' graph diagram](./eventual_safe_locations.png)
+!['city_1' graph diagram](../../Unit%20Assets/eventual_safe_locations.png)
 
 ```python
 city_1 = [

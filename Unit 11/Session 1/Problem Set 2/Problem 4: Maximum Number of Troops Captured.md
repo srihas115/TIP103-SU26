@@ -17,7 +17,7 @@ def capture_max_troops(battlefield):
 
 Example Usage 1:
 
-!['battlefield_1' grid](./max_troops_captured_ex1.png)
+!['battlefield_1' grid](../../Unit%20Assets/max_troops_captured_ex1.png)
 
 ```python
 battlefield_1 = [
@@ -39,7 +39,7 @@ move to square (2, 3) and capture 4 troops.
 
 Example Usage 2:
 
-!['battlefield_2' grid](./max_troops_captured_ex2.png)
+!['battlefield_2' grid](../../Unit%20Assets/max_troops_captured_ex2.png)
 
 ```python
 battlefield_2 = [

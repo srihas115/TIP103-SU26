@@ -35,7 +35,7 @@ def is_symmetric(root):
 
 Example Usage:
 
-![coral1 example tree with dotted line down center to show symmetry](./unit8_session1/symmetric_coral_ex.png)
+![coral1 example tree with dotted line down center to show symmetry](../../Unit%20Assets/symmetric_coral_ex.png)
 
 ```python
 """

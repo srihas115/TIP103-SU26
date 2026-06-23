@@ -16,7 +16,7 @@ def count_regions(grid):
 
 Example Usage 1: 
 
-!['grid_1' regions](./zombie_infested_city_regions_ex1.png)
+!['grid_1' regions](../../Unit%20Assets/zombie_infested_city_regions_ex1.png)
 
 ```python
 grid_1 = [" /","/ "]
@@ -32,7 +32,7 @@ Example Output 1:
 
 Example Usage 2: 
 
-!['grid_2' regions](./zombie_infested_city_regions_ex2.png)
+!['grid_2' regions](../../Unit%20Assets/zombie_infested_city_regions_ex2.png)
 
 ```python
 grid_2 = [" /","  "]
@@ -48,7 +48,7 @@ Example Output 2:
 
 Example Usage 3: 
 
-!['grid_3' regions](./zombie_infested_city_regions_ex3.png)
+!['grid_3' regions](../../Unit%20Assets/zombie_infested_city_regions_ex3.png)
 
 ```python
 grid_3 = ["/\\","\\/"]

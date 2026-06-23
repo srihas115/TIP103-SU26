@@ -21,7 +21,7 @@ def purge_hotel(hotel):
 
 Example Usage:
 
-!['hotel' example tree with each set of leaves highlighted before deletion](./purging_unwanted_guests_ex.png)
+!['hotel' example tree with each set of leaves highlighted before deletion](../../Unit%20Assets/purging_unwanted_guests_ex.png)
 
 ```python
 """
